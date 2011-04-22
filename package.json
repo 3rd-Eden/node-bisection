@@ -1,6 +1,6 @@
 {
   "name": "bisection"
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "author": "Arnout Kazemier"
 , "description": "A JavaScript port of the bisection algorithm that is used in Python"
 , "main": "index"
