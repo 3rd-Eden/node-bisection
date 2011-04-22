@@ -8,10 +8,10 @@ module.exports = {
   'Library version': function(){
      bisection.version.should.match(/^\d+\.\d+\.\d+$/);
   }
-, 'bisection and bisection right': function(){
+, 'Bisection and bisection right': function(){
      bisection.should.equal(bisection.right);
   }
-, 'bisection right': function(){
+, 'Bisection right': function(){
     bisection(small, 4).should.equal(4);
     bisection(small, 15).should.equal(9);
     bisection(small, 4, 5).should.equal(5);
@@ -22,7 +22,7 @@ module.exports = {
     bisection(large, 0).should.equal(0);
     bisection(large, 232424).should.equal(14);
   }
-, 'bisection left': function(){
+, 'Bisection left': function(){
     bisection.left(small, 4).should.equal(9);
     bisection.left(small, 15).should.equal(0);
     bisection.left(small, 4, 5).should.equal(9);
