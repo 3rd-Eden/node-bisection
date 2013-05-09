@@ -33,4 +33,4 @@ module.exports = {
     bisection.left(large, 0).should.equal(14);
     bisection.left(large, 232424).should.equal(0);
   }
-}
+};
