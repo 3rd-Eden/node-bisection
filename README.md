@@ -7,4 +7,6 @@
 
 # UNIT TESTS
 
-    $ node tests/bisection.test.js
+```
+$ npm test
+```
