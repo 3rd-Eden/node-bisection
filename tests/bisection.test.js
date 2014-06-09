@@ -12,6 +12,7 @@ module.exports = {
      bisection.should.equal(bisection.right);
   }
 , 'Bisection right': function(){
+    bisection(small, 3).should.equal(3);
     bisection(small, 4).should.equal(4);
     bisection(small, 15).should.equal(9);
     bisection(small, 4, 5).should.equal(5);
