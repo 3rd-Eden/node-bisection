@@ -20,6 +20,8 @@ function bisection(array, x, low, high){
   while (low < high) {
     mid = (low + high) >> 1;
 
+    if(x === array[mid])
+      return mid;
     if (x < array[mid]) {
       high = mid;
     } else {
