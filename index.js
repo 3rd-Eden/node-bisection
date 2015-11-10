@@ -37,6 +37,7 @@ bisection.right = bisection;
 
 /**
  * Calculates the index of the Array where item X should be placed, assuming the Array is sorted.
+ *
  * @param {Array} array The array containing the items.
  * @param {number} x The item that needs to be added to the array.
  * @param {number} low Inital Index that is used to start searching, optional.
@@ -54,10 +55,10 @@ bisection.left = function left( array, x, low , high ){
   while (low < high) {
     mid = (low + high) >> 1;
 
-    if (x < array[mid]) {
-      low = mid + 1;
-    } else {
+    if (x <= array[mid]) {
       high = mid;
+    } else {
+      low = mid + 1;
     }
   }
 
@@ -67,6 +68,6 @@ bisection.left = function left( array, x, low , high ){
 /**
  * Library version
  */
-bisection.version = '0.0.3';
+bisection.version = '0.0.4';
 
 module.exports = bisection;
