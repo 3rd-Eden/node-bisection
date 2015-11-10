@@ -4,7 +4,7 @@
   "author": "Arnout Kazemier",
   "description": "A JavaScript port of the bisection algorithm that is used in Python",
   "scripts": {
-    "test": "node tests/bisection.test.js"
+    "test": "make test"
   },
   "keywords": [
     "algorithm",
