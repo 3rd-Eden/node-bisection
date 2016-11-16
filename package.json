@@ -17,6 +17,6 @@
     "url": "http://github.com/3rd-Eden/node-bisection.git"
   },
   "devDependencies": {
-    "should": "~1.2.2"
+    "should": "~11.1.1"
   }
 }
